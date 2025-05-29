@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSR demo</title>
+    <title>SSR and CSR</title>
+    <script defer src="/scripts/client.js"></script>
 </head>
 <body>
     <h1>Welcome, {{name}}!</h1>
     <p>Today is {{day}}.</p>
+    <hr>
+    <h2>Joke of the moment (CSR)</h2>
+    <button id="jokeBtn">Get Joke</button>
+    <p id="jokeText">Click the button to load a joke.</p>
 </body>
 </html>
